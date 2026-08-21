@@ -1,0 +1,7 @@
+Licensing in this directory
+
+The PARI/GP (`*.gp`) and GAP (`*.g`) certificate programs are licensed under
+the Apache License 2.0. See ../LICENSE.
+
+These terms do not relicense third-party materials or claim ownership of
+uncopyrightable mathematical facts. See ../THIRD_PARTY_NOTICES.md.

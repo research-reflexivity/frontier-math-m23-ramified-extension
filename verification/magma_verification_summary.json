@@ -1,0 +1,55 @@
+{
+  "status": "PASS_MAGMA_WILD_RAMIFICATION_SUITE",
+  "date": "2026-08-21",
+  "magma_version": "2.29-9",
+  "execution_surface": "University of Sydney public Magma Calculator",
+  "calculator_url": "https://magma.maths.usyd.edu.au/calc/",
+  "limits": {
+    "input_bytes": 50000,
+    "wall_time_seconds": 60
+  },
+  "certificates": [
+    {
+      "claim_stream": "semilinear_covariance",
+      "input_file": "verification/magma/certify_p23_semilinear_covariance.m",
+      "input_sha256": "d7e6b3eb0f0c21dda98462f3ff64d180e3fd223c30ed5e6d0afebccdc6bbbc29",
+      "input_bytes": 4743,
+      "seed": 2322083469,
+      "reported_total_time_seconds": 0.020,
+      "reported_total_memory": "32.09MB",
+      "output_marker": "PASS_P23_SEMILINEAR_COVARIANCE_MAGMA_CERTIFICATE"
+    },
+    {
+      "claim_stream": "stable_group",
+      "input_file": "verification/magma/certify_p23_stable_group.m",
+      "input_sha256": "3b4c2deeb542cddae64fc909db16ec645e1d3e248b989fbc85c74f0d5dd75887",
+      "input_bytes": 1992,
+      "seed": 4128527012,
+      "reported_total_time_seconds": 0.040,
+      "reported_total_memory": "32.09MB",
+      "output_marker": "PASS_CHARACTERISTIC_23_STABLE_GROUP_MAGMA_CERTIFICATE"
+    },
+    {
+      "claim_stream": "vertical_different",
+      "input_file": "verification/magma/certify_p23_vertical_different.m",
+      "input_sha256": "64e12d0170d6a903feadcd3a812bdaf6a29c017e96c5de6c117ec81f4da78a2a",
+      "input_bytes": 14252,
+      "seed": 4095103141,
+      "reported_total_time_seconds": 0.080,
+      "reported_total_memory": "32.09MB",
+      "output_marker": "PASS_CHARACTERISTIC_23_VERTICAL_DIFFERENT_MAGMA_CERTIFICATE"
+    },
+    {
+      "claim_stream": "tame_resolvents",
+      "input_file": "verification/magma/certify_p23_tame_resolvents.m",
+      "input_sha256": "7d5538dec7b54fa5f3bfecb8e25976a4a6e8fdc19716747bc041ce2f7fb7be92",
+      "input_bytes": 13642,
+      "seed": 2840268406,
+      "reported_total_time_seconds": 3.669,
+      "reported_total_memory": "32.09MB",
+      "output_marker": "PASS_CHARACTERISTIC_23_TAME_RESOLVENT_MAGMA_CERTIFICATE"
+    }
+  ],
+  "all_inputs_within_public_limits": true,
+  "all_runs_without_error": true
+}
